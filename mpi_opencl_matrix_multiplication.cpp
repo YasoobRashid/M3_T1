@@ -3,7 +3,7 @@
 #include <CL/cl.h>
 #include <mpi.h>
 
-#define N 720
+#define N 750
 
 const char* load_kernel_source(const char* filename) {
     FILE *fp = fopen(filename, "r");
